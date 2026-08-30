@@ -1,0 +1,6 @@
+# Ignore third-party vendor code
+src/vendor/
+
+# Ignore production build outputs
+dist/
+build/
