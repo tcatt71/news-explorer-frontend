@@ -43,6 +43,7 @@
 
 .search-form__input {
   width: 100%;
+  color: var(--text-primary);
   font-size: 16px;
   line-height: 22px;
   padding: 20px 208px 20px 24px;
