@@ -1,0 +1,66 @@
+.search-form {
+  position: relative;
+  background-image: url("../../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  color: var(--text-on-dark);
+  padding: 160px 416px 80px;
+}
+
+.search-form__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-form__heading-group {
+  position: relative;
+  z-index: 1;
+}
+
+.search-form__title {
+  font-family: var(--font-header);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  margin: 0 0 32px;
+}
+
+.search-form__subtext {
+  margin: 0 0 88px;
+}
+
+.search-form__form {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.search-form__input {
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 20px 208px 20px 24px;
+  border: 1px solid var(--border-color-light);
+  border-radius: var(--border-radius);
+}
+
+.search-form__input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-form__submit-button {
+  width: 168px;
+  background-color: var(--bg-btn-brand);
+  color: var(--text-on-dark);
+  font-weight: 500;
+  line-height: 24px;
+  padding: 20px 56px;
+  border-radius: var(--border-radius);
+  margin-left: -168px;
+}

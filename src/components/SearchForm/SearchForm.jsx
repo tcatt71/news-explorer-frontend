@@ -1,0 +1,28 @@
+import "./SearchForm.css";
+
+function SearchForm() {
+  return (
+    <section className="search-form">
+      <hgroup className="search-form__heading-group">
+        <h1 className="search-form__title">What's going on in the world?</h1>
+        <p className="search-form__subtext">
+          Find the latest news on any topic and save them in your personal
+          account.
+        </p>
+      </hgroup>
+      <form className="search-form__form">
+        <input
+          type="text"
+          className="input search-form__input"
+          placeholder="Enter topic"
+        ></input>
+        <button type="submit" className="button search-form__submit-button">
+          Search
+        </button>
+      </form>
+      <div className="search-form__overlay"></div>
+    </section>
+  );
+}
+
+export default SearchForm;
