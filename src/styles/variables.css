@@ -38,5 +38,7 @@
   --bg-btn-brand-disabled: var(--color-grey-200);
 
   /* Borders */
-  --border-color: var(--color-grey-300);
+  --border-color-white: var(--color-white);
+  --border-color-light: var(--color-grey-300);
+  --border-color-dark: var(--color-grey-900);
 }
