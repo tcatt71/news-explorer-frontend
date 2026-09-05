@@ -15,6 +15,7 @@ function SearchForm() {
           type="text"
           className="input search-form__input"
           placeholder="Enter topic"
+          required
         ></input>
         <button type="submit" className="button search-form__submit-button">
           Search
