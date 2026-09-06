@@ -36,7 +36,6 @@
 .search-form__form {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
   position: relative;
   z-index: 1;
 }
