@@ -34,8 +34,6 @@
 }
 
 .search-form__form {
-  display: flex;
-  justify-content: flex-end;
   position: relative;
   z-index: 1;
 }
@@ -55,13 +53,15 @@
 }
 
 .search-form__submit-button {
+  position: absolute;
+  top: 0;
+  right: 0;
   background-color: var(--bg-btn-brand);
   color: var(--text-on-dark);
   font-weight: 500;
   line-height: 24px;
   padding: 20px 56px;
   border-radius: var(--border-radius);
-  margin-left: -167px;
 }
 
 .search-form__submit-button:hover {
