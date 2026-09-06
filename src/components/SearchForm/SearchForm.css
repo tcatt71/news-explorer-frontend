@@ -56,7 +56,6 @@
 }
 
 .search-form__submit-button {
-  width: 168px;
   background-color: var(--bg-btn-brand);
   color: var(--text-on-dark);
   font-weight: 500;
