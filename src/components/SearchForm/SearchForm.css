@@ -7,6 +7,13 @@
   padding: 160px 416px 80px;
 }
 
+.search-form__content {
+  position: relative;
+  width: 608px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
 .search-form__overlay {
   position: absolute;
   top: 0;
@@ -14,11 +21,6 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.search-form__heading-group {
-  position: relative;
-  z-index: 1;
 }
 
 .search-form__title {
@@ -35,7 +37,6 @@
 
 .search-form__form {
   position: relative;
-  z-index: 1;
 }
 
 .search-form__input {
