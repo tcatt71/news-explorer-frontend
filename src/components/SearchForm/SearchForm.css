@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   color: var(--text-on-dark);
-  padding: 160px 416px 80px;
+  padding: 160px 0 80px;
 }
 
 .search-form__content {
