@@ -12,3 +12,8 @@ input {
   padding: 0;
   border: none;
 }
+
+h1,
+p {
+  margin: 0;
+}
