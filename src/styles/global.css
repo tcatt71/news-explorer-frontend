@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-.button {
+button {
   cursor: pointer;
   padding: 0;
   border: none;
 }
 
-.input {
+input {
   padding: 0;
   border: none;
 }
