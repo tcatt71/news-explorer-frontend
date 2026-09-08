@@ -43,5 +43,6 @@
   --border-color-dark: var(--color-grey-900);
 
   /* Border radius */
-  --border-radius: 32px;
+  --border-radius-md: 28px;
+  --border-radius-lg: 32px;
 }
