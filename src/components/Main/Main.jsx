@@ -3,7 +3,7 @@ import SearchForm from "../SearchForm/SearchForm";
 function Main() {
   return (
     <main className="main">
-      <SearchForm></SearchForm>
+      <SearchForm />
     </main>
   );
 }
