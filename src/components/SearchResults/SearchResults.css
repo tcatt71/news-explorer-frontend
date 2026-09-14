@@ -1,0 +1,25 @@
+.search-results {
+  background-color: var(--bg-surface-secondary);
+  padding: 80px 104px;
+}
+
+@media screen and (max-width: 1104px) {
+  .search-results {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-results {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .search-results {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
