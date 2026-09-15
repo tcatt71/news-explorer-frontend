@@ -1,0 +1,22 @@
+.nothing-found {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.nothing-found__icon {
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.nothing-found__title {
+  font-family: var(--font-header);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.nothing-found__text {
+  max-width: 256px;
+  color: var(--text-secondary);
+}
