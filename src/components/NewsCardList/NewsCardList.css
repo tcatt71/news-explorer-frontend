@@ -1,0 +1,18 @@
+.news-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(224px, 1fr));
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-card-list {
+    grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .news-card-list {
+    gap: 10px;
+  }
+}

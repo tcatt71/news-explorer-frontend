@@ -15,6 +15,10 @@
   margin-bottom: 64px;
 }
 
+.search-results__news-card-list {
+  margin-bottom: 64px;
+}
+
 .search-results__show-more-button {
   align-self: center;
   background-color: var(--bg-btn);
@@ -77,5 +81,9 @@
 @media screen and (max-width: 484px) {
   .search-results__show-more-button {
     align-self: stretch;
+  }
+
+  .search-results__news-card-list {
+    margin-bottom: 16px;
   }
 }
