@@ -33,14 +33,6 @@
   display: flex;
 }
 
-.footer__link:link {
-  color: var(--text-primary);
-}
-
-.footer__link:visited {
-  color: var(--text-primary);
-}
-
 @media screen and (max-width: 1104px) {
   .footer {
     padding-left: 72px;
