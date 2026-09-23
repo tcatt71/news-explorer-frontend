@@ -4,7 +4,7 @@ import SearchResults from "../SearchResults/SearchResults";
 
 function Main() {
   return (
-    <main className="main">
+    <main>
       <SearchForm />
       <SearchResults />
       <About />
