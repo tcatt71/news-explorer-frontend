@@ -32,14 +32,7 @@
   }
 }
 
-@media screen and (max-width: 531px) {
-  .header {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-@media screen and (max-width: 484px) {
+@media screen and (max-width: 487px) {
   .header {
     padding-left: 16px;
     padding-right: 16px;

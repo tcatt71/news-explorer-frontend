@@ -69,16 +69,14 @@
   }
 }
 
-@media screen and (max-width: 531px) {
+@media screen and (max-width: 487px) {
   .search-results {
     padding-top: 32px;
     padding-left: 16px;
     padding-bottom: 24px;
     padding-right: 16px;
   }
-}
 
-@media screen and (max-width: 484px) {
   .search-results__show-more-button {
     align-self: stretch;
   }
