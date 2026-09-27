@@ -1,0 +1,147 @@
+.news-card {
+  position: relative;
+  background-color: var(--bg-surface-primary);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.news-card__action-container {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  gap: 5px;
+}
+
+.news-card__bookmark-button {
+  background-color: transparent;
+}
+
+.news-card__bookmark-icon {
+  display: block;
+}
+
+.news-card__bookmark-button:hover .news-card__bookmark-icon path {
+  stroke: currentColor;
+}
+
+.news-card__image {
+  display: block;
+  width: 100%;
+}
+
+.news-card__content {
+  height: 304px;
+  padding: 20px 24px 24px;
+}
+
+.news-card__date {
+  display: block;
+  font-family: var(--font-date);
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.news-card__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: 60px;
+  font-family: var(--font-header);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.news-card__text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: 110px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: auto;
+}
+
+.news-card__source {
+  font-family: var(--font-header);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-muted);
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 1104px) {
+  .news-card {
+    width: 312px;
+    height: 498px;
+    width: 224px;
+    height: 420px;
+  }
+}
+*/ @media screen and (max-width: 1050px) {
+  .news-card__action-container {
+    top: 16px;
+    right: 16px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .news-card__action-container {
+    top: 8px;
+    right: 8px;
+  }
+
+  .news-card__content {
+    height: 270px;
+    padding: 16px;
+  }
+
+  .news-card__title {
+    -webkit-line-clamp: 3;
+    font-size: 22px;
+    line-height: 24px;
+    height: 72px;
+    margin-bottom: 10px;
+  }
+
+  .news-card__text {
+    -webkit-line-clamp: 4;
+    height: 88px;
+  }
+
+  .news-card__source {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .news-card__action-container {
+    top: 16px;
+    right: 16px;
+  }
+
+  .news-card__content {
+    height: 244px;
+  }
+
+  .news-card__date {
+    margin-bottom: 10px;
+  }
+
+  .news-card__title {
+    -webkit-line-clamp: 2;
+    height: initial;
+    margin-bottom: 14px;
+  }
+
+  .news-card__source {
+    margin-top: 8px;
+  }
+}

@@ -1,0 +1,13 @@
+.tool-tip {
+  display: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  background-color: var(--bg-surface-primary);
+  border-radius: 10px;
+  padding: 14px 20px;
+}
+
+.tool-tip:has(+ .news-card__bookmark-button:hover) {
+  display: block;
+}
