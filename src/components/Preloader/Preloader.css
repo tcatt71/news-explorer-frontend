@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-
 }
 
 .circle-preloader {
@@ -26,5 +25,3 @@
 .preloader__text {
   color: var(--text-secondary);
 }
-
-.
