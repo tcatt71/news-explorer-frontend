@@ -77,15 +77,7 @@
   margin-top: 18px;
 }
 
-@media screen and (max-width: 1104px) {
-  .news-card {
-    width: 312px;
-    height: 498px;
-    width: 224px;
-    height: 420px;
-  }
-}
-*/ @media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
   .news-card__action-container {
     top: 16px;
     right: 16px;
