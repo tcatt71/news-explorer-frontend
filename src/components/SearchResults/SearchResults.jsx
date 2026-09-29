@@ -3,7 +3,7 @@ import "./SearchResults.css";
 
 function SearchResults() {
   return (
-    <section className="search-results">
+    <section className="search-results section-padding">
       <h2 className="search-results__title">Search results</h2>
       <NewsCardList />
       <button className="search-results__show-more-button">Show more</button>

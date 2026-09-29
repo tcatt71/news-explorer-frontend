@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <section className="about">
+    <section className="about section-padding">
       <div className="about__content">
         <img
           src="https://placehold.co/464x464?text=Placeholder%20image"

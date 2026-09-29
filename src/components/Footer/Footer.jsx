@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer section-padding">
       <div className="footer__copyright">
         © 2024 Supersite, Powered by News API,
       </div>
