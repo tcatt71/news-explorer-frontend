@@ -1,5 +1,5 @@
 import Header from "../Header/Header";
-import SearchFormn from "../SearchForm/SearchForm";
+import SearchForm from "../SearchForm/SearchForm";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import "./App.css";
@@ -9,7 +9,7 @@ function App() {
     <div className="page">
       <Header />
       <main>
-        <SearchFormn />
+        <SearchForm />
         <About />
       </main>
       <Footer />
