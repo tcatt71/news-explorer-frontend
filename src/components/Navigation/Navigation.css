@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 451px) {
+@media screen and (max-width: 487px) {
   .navigation__home-link {
     display: none;
   }
@@ -50,15 +50,5 @@
   .navigation__menu-button {
     display: flex;
     background-color: transparent;
-  }
-
-  .navigation__menu-icon {
-    width: 30px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .navigation__menu-icon {
-    width: unset;
   }
 }
