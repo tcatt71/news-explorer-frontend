@@ -1,4 +1,4 @@
-import menuIcon from "../../images/menu.svg";
+import MenuIcon from "../../images/menu.svg?react";
 import "./Navigation.css";
 
 function Navigation() {
@@ -11,7 +11,7 @@ function Navigation() {
         Sign in
       </button>
       <button type="button" className="navigation__menu-button">
-        <img src={menuIcon} className="navigation__menu-icon" />
+        <MenuIcon className="navigation__menu-icon" />
       </button>
     </nav>
   );

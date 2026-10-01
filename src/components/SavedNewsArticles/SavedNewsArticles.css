@@ -1,0 +1,20 @@
+.saved-news-articles {
+  background-color: var(--bg-surface-secondary);
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+@media screen and (max-width: 850px) {
+  .saved-news-articles {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+/* @media screen and (max-width: 320px) { */
+@media screen and (max-width: 487px) {
+  .saved-news-articles {
+    padding-top: 24px;
+    padding-bottom: 12px;
+  }
+}
