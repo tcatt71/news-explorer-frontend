@@ -48,7 +48,7 @@
   }
 
   .navigation__menu-button {
-    display: inline-block;
+    display: flex;
     background-color: transparent;
   }
 
