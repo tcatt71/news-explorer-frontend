@@ -1,13 +1,15 @@
 import Navigation from "../Navigation/Navigation";
 import "./Header.css";
 
-function Header() {
+function Header({ isOpen, onMenuClick }) {
   return (
-    <header className="header section-padding">
+    <header
+      className={`header section-padding ${isOpen ? "header_menu-open" : ""}`}
+    >
       <a href="/" className="header__logo">
         NewsExplorer
       </a>
-      <Navigation />
+      <Navigation isOpen={isOpen} onMenuClick={onMenuClick} />
     </header>
   );
 }

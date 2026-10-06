@@ -29,6 +29,7 @@
   /* Container backgrounds */
   --bg-surface-primary: var(--color-white);
   --bg-surface-secondary: var(--color-grey-50);
+  --bg-surface-tertiary: var(--color-grey-900);
 
   /* Primary button */
   --bg-btn: var(--color-white);
@@ -46,6 +47,7 @@
   --border-color-dark: var(--color-grey-900);
 
   /* Border radius */
+  --border-radius-sm: 8px;
   --border-radius-md: 28px;
   --border-radius-lg: 32px;
 }

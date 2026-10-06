@@ -59,4 +59,8 @@
     display: flex;
     background-color: transparent;
   }
+
+  .navigation__close-icon {
+    width: 24px;
+  }
 }
