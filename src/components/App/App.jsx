@@ -10,6 +10,7 @@ import "./App.css";
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeModal, setActiveModal] = useState("");
 
   const handleMenuToggle = () => {
     setIsMobileMenuOpen((prev) => !prev);

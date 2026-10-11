@@ -1,0 +1,133 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal_opened {
+  display: block;
+}
+
+.modal__container {
+  position: absolute;
+  top: 207px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 430px;
+  background-color: var(--bg-surface-primary);
+  padding: 34px 36px 28px;
+  border-radius: var(--border-radius-md);
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: -46px;
+  right: -46px;
+  background-color: transparent;
+}
+
+.modal__title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__label {
+  font-family: var(--font-input);
+  color: var(--text-brand);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.modal__input {
+  font-family: var(--font-input);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 9px 0 10px;
+  border-bottom: 1px solid var(--border-color-light);
+}
+
+.modal__input::placeholder {
+  color: var(--text-muted);
+}
+
+.modal__input:not(:last-child) {
+  margin-bottom: 31px;
+}
+
+.modal__submit-btn {
+  width: 100%;
+  color: var(--text-on-dark);
+  font-weight: 500;
+  line-height: 24px;
+  background-color: var(--bg-btn-brand);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.modal__submit-btn:hover {
+  background-color: var(--bg-btn-brand-hover);
+}
+
+.modal__submit-btn:active {
+  background-color: var(--bg-btn-brand-active);
+}
+
+.modal__text-btn {
+  align-self: center;
+  background-color: transparent;
+  font-family: var(--font-input);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.modal__redirect {
+  color: var(--text-brand);
+}
+
+@media screen and (max-width: 534px) {
+  .modal__close-btn {
+    right: 6px;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .modal__container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .modal {
+    background-color: transparent;
+  }
+
+  .modal__close-btn {
+    top: -46px;
+    right: 16px;
+    width: 24px;
+  }
+
+  .modal__close-icon {
+    width: 24px;
+  }
+
+  .modal__container {
+    top: 56px;
+    bottom: 0;
+  }
+}
