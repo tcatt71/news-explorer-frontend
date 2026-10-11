@@ -1,6 +1,11 @@
 import "./DrawerMenu.css";
 
-function DrawerMenu({ isOpen, onClose }) {
+function DrawerMenu({ isOpen, onClose, onOpenModal }) {
+  function handleLoginClick(modal) {
+    onClose();
+    onOpenModal(modal);
+  }
+
   return (
     <div className={`drawer-menu ${isOpen ? "drawer-menu_opened" : ""}`}>
       <nav className="drawer-menu__content section-padding">
@@ -14,7 +19,9 @@ function DrawerMenu({ isOpen, onClose }) {
             <button
               type="button"
               className="drawer-menu__sign-in-button"
-              onClick={onClose}
+              onClick={() => {
+                handleLoginClick("login");
+              }}
             >
               Sign in
             </button>

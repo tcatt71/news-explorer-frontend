@@ -38,7 +38,11 @@ function App() {
         <About />
       </main>
       <Footer />
-      <DrawerMenu isOpen={isMobileMenuOpen} onClose={handleMenuClose} />
+      <DrawerMenu
+        isOpen={isMobileMenuOpen}
+        onClose={handleMenuClose}
+        onOpenModal={handleOpenModal}
+      />
       <LoginModal
         isOpen={activeModal === "login"}
         activeModal={activeModal}
