@@ -32,7 +32,12 @@ function App() {
 
   return (
     <div className="page">
-      <Header isOpen={isMobileMenuOpen} onMenuClick={handleMenuToggle} />
+      <Header
+        isMobileMenuOpen={isMobileMenuOpen}
+        isModalOpen={activeModal !== ""}
+        onMenuClick={handleMenuToggle}
+        onOpenModal={handleOpenModal}
+      />
       <main>
         <SearchForm />
         <About />
