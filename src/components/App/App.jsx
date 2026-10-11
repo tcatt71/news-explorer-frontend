@@ -5,6 +5,7 @@ import SearchForm from "../SearchForm/SearchForm";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import DrawerMenu from "../DrawerMenu/DrawerMenu";
+import LoginModal from "../LoginModal/LoginModal";
 
 import "./App.css";
 
@@ -20,6 +21,14 @@ function App() {
     setIsMobileMenuOpen(false);
   };
 
+  const handleOpenModal = (modal) => {
+    setActiveModal(modal);
+  };
+
+  const handleCloseModal = () => {
+    setActiveModal("");
+  };
+
   return (
     <div className="page">
       <Header isOpen={isMobileMenuOpen} onMenuClick={handleMenuToggle} />
@@ -29,6 +38,12 @@ function App() {
       </main>
       <Footer />
       <DrawerMenu isOpen={isMobileMenuOpen} onClose={handleMenuClose} />
+      <LoginModal
+        isOpen={activeModal === "login"}
+        activeModal={activeModal}
+        onOpenModal={handleOpenModal}
+        onClose={handleCloseModal}
+      />
     </div>
   );
 }
