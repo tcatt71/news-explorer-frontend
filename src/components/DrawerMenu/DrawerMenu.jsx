@@ -5,8 +5,8 @@ function DrawerMenu({ isOpen, onClose }) {
     <div className={`drawer-menu ${isOpen ? "drawer-menu_opened" : ""}`}>
       <nav className="drawer-menu__content section-padding">
         <ul className="drawer-menu__list">
-          <li className="drawer-menu__item" onClick={onClose}>
-            <a href="/" className="drawer-menu__link">
+          <li className="drawer-menu__item">
+            <a href="/" className="drawer-menu__link" onClick={onClose}>
               Home
             </a>
           </li>
