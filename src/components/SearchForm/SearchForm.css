@@ -46,7 +46,7 @@
   line-height: 22px;
   padding: 20px 208px 20px 24px;
   border: 1px solid var(--border-color-light);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius-xl);
 }
 
 .search-form__input::placeholder {
@@ -62,7 +62,7 @@
   font-weight: 500;
   line-height: 24px;
   padding: 20px 56px;
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius-xl);
 }
 
 .search-form__submit-button:hover {
@@ -101,12 +101,12 @@
     padding-top: 16px;
     padding-right: 196px;
     padding-bottom: 16px;
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-lg);
   }
 
   .search-form__submit-button {
     padding: 16px 52px;
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-lg);
   }
 }
 

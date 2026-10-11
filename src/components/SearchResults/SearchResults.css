@@ -27,7 +27,7 @@
   font-weight: 500;
   line-height: 24px;
   padding: 20px 98px 20px 99px;
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius-xl);
 }
 
 .search-results__show-more-button:hover {
@@ -62,7 +62,7 @@
     padding-right: 74px;
     padding-bottom: 16px;
     padding-left: 75px;
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-lg);
   }
 }
 
