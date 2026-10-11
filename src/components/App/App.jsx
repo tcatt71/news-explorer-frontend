@@ -6,6 +6,7 @@ import About from "../About/About";
 import Footer from "../Footer/Footer";
 import DrawerMenu from "../DrawerMenu/DrawerMenu";
 import LoginModal from "../LoginModal/LoginModal";
+import RegisterModal from "../RegisterModal/RegisterModal";
 
 import "./App.css";
 
@@ -40,6 +41,12 @@ function App() {
       <DrawerMenu isOpen={isMobileMenuOpen} onClose={handleMenuClose} />
       <LoginModal
         isOpen={activeModal === "login"}
+        activeModal={activeModal}
+        onOpenModal={handleOpenModal}
+        onClose={handleCloseModal}
+      />
+      <RegisterModal
+        isOpen={activeModal === "register"}
         activeModal={activeModal}
         onOpenModal={handleOpenModal}
         onClose={handleCloseModal}
