@@ -30,6 +30,10 @@ function App() {
     setActiveModal("");
   };
 
+  const handleSubmit = () => {
+    setActiveModal("");
+  };
+
   return (
     <div className="page">
       <Header
@@ -53,12 +57,14 @@ function App() {
         activeModal={activeModal}
         onOpenModal={handleOpenModal}
         onClose={handleCloseModal}
+        onSubmit={handleSubmit}
       />
       <RegisterModal
         isOpen={activeModal === "register"}
         activeModal={activeModal}
         onOpenModal={handleOpenModal}
         onClose={handleCloseModal}
+        onSubmit={handleSubmit}
       />
     </div>
   );

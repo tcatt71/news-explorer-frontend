@@ -1,6 +1,6 @@
 import ModalWithForm from "../ModalWithForm/ModalWithForm";
 
-function LoginModal({ isOpen, onOpenModal, onClose }) {
+function LoginModal({ isOpen, onOpenModal, onClose, onSubmit }) {
   return (
     <ModalWithForm
       isOpen={isOpen}
@@ -10,6 +10,7 @@ function LoginModal({ isOpen, onOpenModal, onClose }) {
       redirectText="Sign up"
       onClose={onClose}
       onRedirect={() => onOpenModal("register")}
+      onSubmit={onSubmit}
     >
       <label className="modal__label" htmlFor="login-email">
         Email
