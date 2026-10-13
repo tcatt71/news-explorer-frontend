@@ -106,12 +106,6 @@
 }
 
 @media screen and (max-width: 487px) {
-  .modal__container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 487px) {
   .modal {
     background-color: transparent;
   }
@@ -127,7 +121,9 @@
   }
 
   .modal__container {
+    width: 100%;
     top: 56px;
     bottom: 0;
+    padding: 16px 16px 0 16px;
   }
 }
