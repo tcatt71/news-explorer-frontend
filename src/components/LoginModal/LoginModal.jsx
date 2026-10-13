@@ -18,6 +18,8 @@ function LoginModal({ isOpen, onOpenModal, onClose }) {
         className="modal__input"
         type="email"
         id="login-email"
+        autoCapitalize="none"
+        autoComplete="off"
         placeholder="Enter email"
         required
       ></input>

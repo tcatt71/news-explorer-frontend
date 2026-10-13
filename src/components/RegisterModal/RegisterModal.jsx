@@ -18,6 +18,8 @@ function RegisterModal({ isOpen, onOpenModal, onClose }) {
         className="modal__input"
         type="email"
         id="register-email"
+        autoCapitalize="none"
+        autoCorrect="off"
         placeholder="Enter email"
         required
       ></input>
@@ -38,6 +40,8 @@ function RegisterModal({ isOpen, onOpenModal, onClose }) {
         className="modal__input"
         type="text"
         id="register-username"
+        autoCapitalize="none"
+        autoCorrect="off"
         placeholder="Enter your username"
         required
       />
