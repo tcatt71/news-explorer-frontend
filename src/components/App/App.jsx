@@ -13,6 +13,9 @@ import "./App.css";
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeModal, setActiveModal] = useState("");
+  const [isLoggedIn, setIsLoggedIn] = useState(() => {
+    return localStorage.getItem("isLoggedIn") === "true";
+  });
 
   const handleMenuToggle = () => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -30,8 +33,16 @@ function App() {
     setActiveModal("");
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setActiveModal("");
+    setIsLoggedIn(true);
+    localStorage.setItem("isLoggedIn", "true");
+  };
+
+  const handleLogout = () => {
+    localStorage.setItem("isLoggedIn", "");
+    setIsLoggedIn(false);
   };
 
   return (
@@ -41,6 +52,8 @@ function App() {
         isModalOpen={activeModal !== ""}
         onMenuClick={handleMenuToggle}
         onOpenModal={handleOpenModal}
+        isLoggedIn={isLoggedIn}
+        onLogout={handleLogout}
       />
       <main>
         <SearchForm />

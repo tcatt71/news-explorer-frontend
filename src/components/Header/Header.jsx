@@ -1,7 +1,14 @@
 import Navigation from "../Navigation/Navigation";
 import "./Header.css";
 
-function Header({ isMobileMenuOpen, isModalOpen, onMenuClick, onOpenModal }) {
+function Header({
+  isMobileMenuOpen,
+  isModalOpen,
+  onMenuClick,
+  onOpenModal,
+  isLoggedIn,
+  onLogout,
+}) {
   return (
     <header
       className={`header section-padding ${isMobileMenuOpen ? "header_menu-open" : ""}`}
@@ -14,6 +21,8 @@ function Header({ isMobileMenuOpen, isModalOpen, onMenuClick, onOpenModal }) {
         isModalOpen={isModalOpen}
         onMenuClick={onMenuClick}
         onOpenModal={onOpenModal}
+        isLoggedIn={isLoggedIn}
+        onLogout={onLogout}
       />
     </header>
   );
